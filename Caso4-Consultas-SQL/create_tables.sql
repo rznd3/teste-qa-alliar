@@ -12,7 +12,7 @@ CREATE TABLE Vendedor (
 
 CREATE TABLE Venda (
     id INT PRIMARY KEY,
-    valor_total DECIMAL(10, 2),
+    valor_total INT,
     data DATE,
     cliente_id INT,
     vendedor_id INT,
