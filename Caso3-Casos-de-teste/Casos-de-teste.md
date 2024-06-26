@@ -18,7 +18,7 @@
 
 **Casos de teste:**
 - Verificar que o envio com campo CPF em branco interrompe o fluxo.
-- Verificar que o campo CFP não aceita um CPF já cadastrado.
+- Verificar que o campo CPF não aceita um CPF já cadastrado.
 - Verificar que o envio com um CPF inválido (menos de 11 dígitos) interrompe o fluxo.
 - Verificar que o campo CPF impede a digitação de letras.
 - Verificar que o campo CPF aceita apenas os caracteres especiais '.' e '-', garantindo que estejam nos locais corretos.
