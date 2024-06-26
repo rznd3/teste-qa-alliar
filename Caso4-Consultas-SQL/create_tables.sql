@@ -16,8 +16,8 @@ CREATE TABLE Venda (
     data DATE,
     cliente_id INT,
     vendedor_id INT,
-    FOREIGN KEY (cliente_id) REFERENCES Cliente(id) ON DELETE CASCADE,
-    FOREIGN KEY (vendedor_id) REFERENCES Vendedor(id) ON DELETE CASCADE
-  	--FOREIGN KEY (cliente_id) REFERENCES Cliente(id),
-    -- FOREIGN KEY (vendedor_id) REFERENCES Vendedor(id)
+    FOREIGN KEY (cliente_id) REFERENCES Cliente(id),
+    FOREIGN KEY (vendedor_id) REFERENCES Vendedor(id)
+    --FOREIGN KEY (cliente_id) REFERENCES Cliente(id) ON DELETE CASCADE,
+    --FOREIGN KEY (vendedor_id) REFERENCES Vendedor(id) ON DELETE CASCADE
 );
