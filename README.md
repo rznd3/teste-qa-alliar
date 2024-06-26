@@ -19,7 +19,7 @@ Este repositório contém: um projeto de automação de testes utilizando o Cypr
 
 1. **Clone o repositório**
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/rznd3/teste-qa-alliar.git
    ```
 
 2. **A partir do diretório raiz, navegue até o diretório do projeto**
