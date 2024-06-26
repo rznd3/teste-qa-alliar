@@ -53,5 +53,5 @@ npx cypress run
 - **cypress/e2e**: Contém os arquivos dos testes automatizados.
 - **cypress/support**: Contém arquivos de suporte, como comandos customizados e elementos das páginas.
 - **cypress/screenshot**: Contém prints das páginas mostrando o resultado final de cada teste.
-- **cypress.json**: Arquivo de configuração do Cypress.
+- **cypress.config.js**: Arquivo de configuração do Cypress.
 - **package.json**: Arquivo que contém informações sobre o projeto e suas dependências.
